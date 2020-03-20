@@ -1,0 +1,171 @@
+body{
+    background-color: #14213D;
+    color:#ffffff;
+    font-family: verdana,arial, sans-serif;
+}
+main{
+    padding: 15px;
+    margin-left: 15%;
+    margin-right: 20px;
+    background-color: #14213D;
+    
+}
+
+
+header{
+    background color:#000000;
+    color: #ffffff;   
+}
+h1{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.em;
+    text-shadow: 3px 3px black;
+    border-bottom: 2px groove black;
+    padding-bottom: 7px;
+    border-radius:10px;
+    box-shadow: 0px 3px black;
+    margin: 0;
+}
+
+h2{
+    color:#e5e5e5;
+    font-size: 2.0em;
+    text-shadow: 3px 3px black;
+    clear: left;
+
+}
+
+h3{
+    color: #FCA311; 
+    border-bottom: 2px dotted black;
+    margin-right: 55%;
+    clear: both;
+    
+
+}
+h5{
+    color: #FCA311;
+    font-size: 1.1em;
+    font-family: helvetica, arial,sans-serif;
+
+}
+
+.quote{
+    color: gold;
+    font-weight: bold;
+}
+
+figure{
+    padding: 6px;
+    border-bottom: 2px groove black; 
+    float: right;
+    
+
+}
+               
+figcaption{
+    font-family: verdana, arial, sans-serif;
+    font-size: .6em;
+    color: red;
+    
+}
+
+#wrapper{
+    min-width: 960px;
+    width: 80%;
+    margin: auto;
+    background-color:#14213D;
+}
+.nav {
+    display: block;
+    list-style-type: none;
+     width: 15%;
+    float: left;
+
+}
+nav a{
+   text-decoration: none;
+   padding: 10px;
+  display: block;
+}
+
+a:visited {
+color: #E5E5E5;
+}
+
+a:hover{
+    color: chartreuse;
+}
+
+
+table{
+    width:100%;
+    margin: auto;
+    padding: 5px;
+    font-family:  verdana,arial,sans-serif;
+    font-size: 100%; 
+    color: #000000;
+    border: 2px dotted black;
+}
+td,tr{ 
+    border: 2px dotted black;
+}
+tr:first-of-type{
+    color: #14213D;
+}
+
+tr:nth-of-type(even){
+    background-color: #FCA311;
+}
+tr:nth-of-type(odd){
+    background-color: #E5E5E5;
+    
+}
+
+
+form{
+    width: 100%;
+    font-family: helvetica, arial,sans-serif;
+    display: block;
+    border: 2px solid #E5E5E5;
+    padding: 25px;
+}
+
+
+.required:before{
+    content: "*";
+    color: red;
+}
+input[type=text] {
+    border: 2px solid  #E5E5E5;
+}
+label{
+    text-align: right;
+    width: 100px;
+    padding-right: 10px;
+    font-size: 1.2em
+}
+
+legend{
+
+    padding-top: 2px;
+}
+
+fieldset{
+    border: 2px solid #E5E5E5;
+    background-color: 14213D;
+
+}
+
+input[type=radio]{
+display: block;
+  
+}
+
+input[type=submit]{
+
+  width: 5%;
+  height: 1.5em;
+  font-size: 1em;   
+}

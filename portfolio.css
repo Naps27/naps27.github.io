@@ -1,0 +1,88 @@
+body{
+    background-image: url(adrian-Xft-JdC-Jbc-unsplash.jpg);
+  background-size:1920px 1080px;
+    
+    
+   font-family: verdana,arial, sans-serif;
+    color: turquoise;
+}
+
+
+main{
+    padding: 15px;
+    margin-left: auto;
+    margin-right: 20px;
+    
+}
+
+h1{
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #e5e5e5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+    text-align: left;
+    text-shadow: 1px 1px black;
+    clear: left;
+    border-bottom: 1px dotted black;
+    width: 75%;
+}
+
+#wrapper{
+    min-width: 960px;
+    width: 80%;
+    margin: auto;
+   
+      
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 2.5rem;
+  color: #CAEBF2;
+}
+
+.nav{
+   display: block;
+    list-style-type: none;
+     width: 18%;
+    float: right;;
+}
+
+ul{
+    font-size: 1.3em;
+    color: turquoise;
+    
+}
+ol{
+    text-decoration: none;
+    list-style: circle;
+    font-size: 1.3em;
+    color: turquoise;
+    
+    
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.3em;
+    color: turquoise;
+    width: 10%;
+}
+a:link{
+   text-decoration: none; 
+    
+}
+
+a:visited{
+    color: #000000;
+}
+
+a:hover{
+    color: #e5e5e5;
+}
